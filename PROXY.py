@@ -27,7 +27,7 @@ class Proxy:
         print('Here you have it. :)')	
         
 
-list_data = [0, 1, 2.5, 3, 4, 6]
+list_data = [0, 1, 2.5, 3, 4, 5]
 obj_data = Data(list_data)
 obj_proxy = Proxy(object_data)
 obj_proxy.proxy()
